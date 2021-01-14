@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    background-color: rgb(224, 223, 223);
+    /*background-image: url('../视频vip解析/res/bg.jpg');*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+  .radio input[type="radio"]{
+    background: #f4f4f4;
+    border-radius: 100%;
+    border: 1px solid #b4b4b4;
+    display: inline-block;
+    width: 1.4em;
+    height: 1.4em;
+    position: relative;
+    vertical-align: top;
+    cursor: pointer;
+    text-align: center;
+    -webkit-transition: all 250ms ease;
+    transition: all 250ms ease;
+  }
+  .radio input[type="radio"]:checked{
+    background: #3197EE;
+    border-color: #3197EE;
+  }
+  .radio input[type="radio"]:hover{
+    outline: none;
+    border-color: #3197EE;
+  }
+  #footer {
+    height: 40px;
+    line-height: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #333;
+    text-align: center;
+    color: #fff;
+    font-family: Arial;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+/*菜单*/
+.iconbotton{position: fixed;top:1%;left:2%;width:15%}
